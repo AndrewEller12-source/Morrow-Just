@@ -1,0 +1,27 @@
+# Local OS/editor state
+.DS_Store
+*.swp
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Dependencies and generated output
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+coverage/
+*.log
+# Unshared test captures and worktrees
+.local/
+.worktrees/
+
+# Local source background not approved for public redistribution
+/docs/sources/flux-staged-electronics-plan.md
+# Adobe recovery files
+~$*
+*.tmp
